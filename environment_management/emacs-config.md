@@ -21,7 +21,7 @@
 	        (scroll-down 1))
 		(global-set-key [(control down)] 'gcm-scroll-down)
 		(global-set-key [(control up)] 'gcm-scroll-up)
-		```
+```
 
 ### sublime like multiple cursors
 ```
