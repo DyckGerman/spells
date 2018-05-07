@@ -11,7 +11,7 @@
 (window-number-meta-mode)
 ```
 
-### sublimete text like scrolling buffer without cursor move
+### sublime text like scrolling buffer without cursor move
 ```
 (defun gcm-scroll-down ()
     (interactive)
