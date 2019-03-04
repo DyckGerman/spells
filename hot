@@ -1,0 +1,22 @@
+Emacs
+M-w		copy
+C-y		paste
+C-s		search forward
+
+Buffers management
+M-<Num>		switch to window
+C-x-2		split vertically
+C-x-3		split horizontally
+C-x-0		close current
+
+VSCode
+C-M--		go back
+
+Tilda
+F1, F2		open console
+C-t		new tab
+C-r		close tab
+
+Turn off the lights
+C-S-L		toggle lights
+

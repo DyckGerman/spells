@@ -1,9 +1,3 @@
-### Keyboard layouts switch
-```bash
-setxkbmap -layout us,de
-setxkbmap -option 'grp:alt_shift_toggle'
-```
-
 ### Password expiration control
 ```bash
 chage -d 2019-03-01 german
@@ -13,3 +7,9 @@ chage -d 2019-03-01 german
 ```bash
 VBoxManage controlvm "w8" webcam attach /dev/video0
 ```
+
+### Change volume with amixer
+```bash
+amixer set 'Master' 50%
+```
+
