@@ -1,0 +1,1 @@
+VBoxManage controlvm "<vm-name>" webcam attach /dev/video0 
