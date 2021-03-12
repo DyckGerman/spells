@@ -4,3 +4,4 @@ parted /dev/sda --script mklabel gpt mkpart ext4part ext4 0% 100%
 mkfs.ext4 /dev/sdb1
 
 sudo mount -a
+blkid
