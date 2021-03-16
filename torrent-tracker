@@ -1,0 +1,5 @@
+apt install bittornado transmission-cli
+mkdir ~/.bttrack
+bttrack --port 6969 --dfile ~/.bttrack/dstate --logfile ~/.bttrack/tracker.log --nat_check 0 --scrape_allowed full
+
+transmission-cli -D ./xxx.torrent -w .
