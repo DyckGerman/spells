@@ -41,7 +41,7 @@ yabai -m config mouse_action1                move
 yabai -m config mouse_action2                resize
 
 # general space settings
-yabai -m config layout                       bsp
+yabai -m config layout                       float
 yabai -m config bottom_padding               0
 yabai -m config left_padding                 0
 yabai -m config right_padding                0
@@ -51,6 +51,8 @@ yabai -m config window_gap                   0
 yabai -m rule --add app='^System Information$' manage=off
 yabai -m rule --add app='^System Preferences$' manage=off
 yabai -m rule --add title='Preferences$' manage=off
+yabai -m rule --add app='^iTerm2$' manage=off
+
 
 # float settings windows
 yabai -m rule --add title='Settings$' manage=off
